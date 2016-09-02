@@ -1,0 +1,35 @@
+{
+  "python_versions": [
+    "2.7.11",
+    "3.5.1"
+  ],
+  "apt_packages": [
+    "git-core",
+    "curl",
+    "bzip2",
+    "build-essential",
+    "libssl-dev",
+    "libffi-dev",
+    "zlib1g-dev",
+    "libbz2-dev",
+    "libreadline-dev",
+    "libsqlite3-dev",
+    "libxml2-dev",
+    "libxslt1-dev",
+    "libsasl2-dev",
+    "llvm",
+    "gfortran",
+    "libncurses5-dev",
+    "nano"
+  ],
+  "python_libraries": [
+    {
+      "library": "tox"
+    },
+    {
+      "library": "virtualenv"
+    }
+  ],
+  "user": "dorfl",
+  "group": "golems"
+}
